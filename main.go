@@ -2,14 +2,22 @@ package main
 
 import (
 	"fmt"
+	"math/rand"
 	"net/http"
 	"os"
 
 	"github.com/derricw/soulmsg/msg"
 )
 
+const conjunctionRate = 0.2
+
+func randBool(trueProportion float32) bool {
+	return rand.Float32() < trueProportion
+}
+
 func response(w http.ResponseWriter, req *http.Request) {
-	msg := fmt.Sprintf("%s\n", msg.RandomMessage(false))
+	doConjuction := randBool(conjunctionRate)
+	msg := fmt.Sprintf("%s\n", msg.RandomMessage(doConjuction))
 	fmt.Fprintf(w, msg)
 }
 
