@@ -3,7 +3,7 @@ runtime: go1
 build:
   commands:
     build:
-      - go build main.go
+      - go build
 run:
   command: ./soulmsg-server
   network:
