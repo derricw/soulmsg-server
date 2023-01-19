@@ -1,6 +1,8 @@
 github.com/cpuguy83/go-md2man/v2 v2.0.2/go.mod h1:tgQtvFlXSQOSOSIRvRPT7W67SCa46tRHOmNcaadrF8o=
 github.com/derricw/soulmsg v0.0.0-20230113231759-7903d2c82bb3 h1:0k4pQufNZ8qYWEJQPAWG8i/NUeY2CZBzn1PZgZ308qM=
 github.com/derricw/soulmsg v0.0.0-20230113231759-7903d2c82bb3/go.mod h1:R2JW6CfZcNXDZvEGyb/qA176TNHZElkO7YdRJuRIzd4=
+github.com/derricw/soulmsg v0.0.0-20230119055416-c223daa30a4e h1:36gN5acewcqJEY1+FtLacbhl2Tj9e3aF+Zhsz2UAu6I=
+github.com/derricw/soulmsg v0.0.0-20230119055416-c223daa30a4e/go.mod h1:R2JW6CfZcNXDZvEGyb/qA176TNHZElkO7YdRJuRIzd4=
 github.com/inconshreveable/mousetrap v1.0.1 h1:U3uMjPSQEBMNp1lFxmllqCPM6P5u/Xq7Pgzkat/bFNc=
 github.com/inconshreveable/mousetrap v1.0.1/go.mod h1:vpF70FUmC8bwa3OWnCshd2FqLfsEA9PFc4w1p2J65bw=
 github.com/russross/blackfriday/v2 v2.1.0/go.mod h1:+Rmxgy9KzJVeS9/2gXHxylqXiyQDYRxCVz55jmeOWTM=
