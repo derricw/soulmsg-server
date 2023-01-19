@@ -19,5 +19,6 @@ func main() {
 		httpPort = "8080"
 	}
 	http.HandleFunc("/", response)
-	http.ListenAndServe(":"+httpPort, nil)
+	err := http.ListenAndServe(":"+httpPort, nil)
+	fmt.Printf("%s", err)
 }
