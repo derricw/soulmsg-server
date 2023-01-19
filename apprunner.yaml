@@ -6,3 +6,6 @@ build:
       - go build main.go
 run:
   command: ./soulmsg-server
+  network:
+    port: 8080
+    env: HTTP_PORT
