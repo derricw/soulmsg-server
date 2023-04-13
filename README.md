@@ -3,21 +3,21 @@
 [soulmsg](https://github.com/derricw/soulmsg) as a service.
 
 Try it live:
-```
-$ curl -L fir3.link
+```bash
+curl -L fir3.link
 ```
 
 # build
-```
-$ go build .
+```bash
+go build .
 ```
 
 # run
-```
-$ ./soulmsg-server
+```bash
+./soulmsg-server
 ```
 
 # use
-```
-$ curl localhost:8080
+```bash
+curl localhost:8080
 ```
