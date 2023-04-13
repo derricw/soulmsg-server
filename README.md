@@ -2,7 +2,7 @@
 
 [soulmsg](https://github.com/derricw/soulmsg) as a service.
 
-Generate random Dark Souls messages for MotD or whatever.
+Generate random Dark Souls messages for fortunes, MotD, or whatever.
 
 Try it live:
 ```bash
