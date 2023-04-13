@@ -4,20 +4,20 @@
 
 Try it live:
 ```
-curl -L fir3.link
+$ curl -L fir3.link
 ```
 
 # build
 ```
-go build .
+$ go build .
 ```
 
 # run
 ```
-./soulmsg-server
+$ ./soulmsg-server
 ```
 
 # use
 ```
-curl localhost:8080
+$ curl localhost:8080
 ```
