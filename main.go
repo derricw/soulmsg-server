@@ -5,6 +5,7 @@ import (
 	"math/rand"
 	"net/http"
 	"os"
+	"time"
 
 	"github.com/derricw/soulmsg/msg"
 )
@@ -22,6 +23,7 @@ func response(w http.ResponseWriter, req *http.Request) {
 }
 
 func main() {
+	rand.Seed(time.Now().UnixNano())
 	httpPort := os.Getenv("HTTP_PORT")
 	if httpPort == "" {
 		httpPort = "8080"
