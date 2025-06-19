@@ -22,7 +22,7 @@ func randBool(trueProportion float32) bool {
 func response(w http.ResponseWriter, req *http.Request) {
 	doConjuction := randBool(conjunctionRate)
 	msg := fmt.Sprintf("%s\n", msg.RandomMessage(doConjuction))
-	log.Debug().Str("message", msg).Str("source ip", req.RemoteAddr).Str("user agent", req.UserAgent()).Msg("received request")
+	log.Debug().Str("soul_message", msg).Str("source_ip", req.RemoteAddr).Str("user_agent", req.UserAgent()).Msg("received request")
 	fmt.Fprintf(w, msg)
 }
 
